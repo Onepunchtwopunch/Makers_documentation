@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body {
+   font-family: 'Lato', sans-serif;
+   box-sizing: border-box;
+   margin: 0;
+   background-color: #fff;
+}
+
+.wraper{
+   width: 100%;
+   display: flex;
+   
+}
+h1{
+   font-size: 50px;
+}
+.main__box{
+   margin-bottom: 25px;
+}
+.main__block{
+   padding-top: 30px;
+}
+.main-left{
+   width: 75%;
+   margin-left: 35px;
+}
+.box-1{
+   padding-bottom: 25px;
+}
+.box-2{
+   padding-top: 25px;
+}
+.img-first{
+   background: url("./image/firs.png") no-repeat;
+}
+.block-2{
+   padding-bottom: 25px;
+}
+.images{
+   border-radius: 20px;
+}
+.block-2{
+   padding-top: 25px;
+}
+.main__block{
+   border-top: 2px solid #000;
+}
+.img-pen{
+   background: url("./image/pen\ 1.svg") no-repeat;
+}
+.img-plus{
+   background: url("./image/Plus.svg");
+}
+/*.image-1{
+   padding: 25px 0 25px;
+}
+.main-img{
+   padding: 35px  0 25px 0;
+}*/
+
+.main-right{
+   max-height: 100%;
+   width: 25%;
+   color: #000;
+   background-color: lightgrey;
+   position: relative;
+   /*z-index: -1;
+   right: 0;
+   top: 0;*/
+   overflow-y: scroll;
+   max-height: 100%;
+   
+}
+.right__list{
+   line-height: 30px;
+   /*width: 400px;*/
+   position: fixed;
+   top: 0;
+   /*padding-top: 100px;*/
+}
+.lists{
+   color: #000;
+}
+.list-1::after{
+   content:"";
+   height: 3px;
+   width: 60px;
+   background-color: #FFE600;
+   position: absolute;
+   top: 35px;
+   right: 199px;
+   
+}
+.right__style{
+   padding-left: 20px;
+   font-size: 20px;
+}
+
+
+
+
+
+
+

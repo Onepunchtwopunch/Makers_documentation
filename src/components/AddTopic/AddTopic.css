@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+body {
+   font-family: "Lato", sans-serif;
+   box-sizing: border-box;
+   margin: 0;
+   background-color: #fff;
+}
+.container {
+   max-width: 1200px;
+   margin: 0 auto;
+}
+.add-topic{
+   text-align: center;
+}
+.topic-inp{
+   border-radius: 30px;
+   padding: 10px 10px;
+   font-size: 15px;
+   outline: none;
+}
+::-webkit-input-placeholder {
+   text-align:center;
+   }
+.topic-btn{
+   font-size: 16px;
+   border: 2px solid #ffe600;
+   color: #000000;
+   padding: 10px 25px;
+   border-radius: 20px;
+   margin-bottom: 20px;
+   margin-top: 60px;
+   cursor: pointer;
+   /*_____________*/
+   outline: none;
+   /*___________*/
+}

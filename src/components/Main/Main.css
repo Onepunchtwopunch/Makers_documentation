@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+body {
+   font-family: "Lato", sans-serif;
+   box-sizing: border-box;
+   margin: 0;
+   background-color: #fff;
+}
+.container {
+   max-width: 1200px;
+   margin: 0 auto;
+}
+.main{
+   background-color: #fff;
+   text-align: center;
+}
+h1{
+   font-size: 150px;
+   font-weight: 400;
+   animation: pulsing 2s infinite;
+   
+}
+.documentation{
+   font-size: 32px;
+   border: 2px solid #ffe600;
+   color: #000000;
+   padding: 10px 25px;
+   border-radius: 35px;
+   margin-bottom: 35px;
+   margin-top: 60px;
+}
+
+.shadowtext {
+   text-shadow: 1px 1px 20px black, 0 0 10em black; /* Параметры тени */
+   color: #ffe600; /* Белый цвет текста */
+   font-size: 10em; /* Размер надписи */
+}
+
+@keyframes pulsing{
+   0%{
+      transform: scale(0.5, 0.5);
+   }
+   50%{
+      transform: scale(1.0, 1.0);
+   }
+   100%{
+      transform: scale(0.5, 0.5);
+   }
+}
+
+@media all and (max-width: 1200px) {
+   .container {
+      max-width: 960px;
+   }
+}
+
+@media all and (max-width: 992px) {
+   .container {
+      max-width: 752px;
+   }
+}
+
+@media all and (max-width: 768px) {
+   .container {
+      max-width: 528px;
+   }
+}
+@media all and (max-width: 576px) {
+   .container {
+      max-width: 306px;
+   }
+   .shadowtext{
+      font-size: 3em;
+   }
+   .documentation{
+      font-size: 20px;
+      border: 2px solid #ffe600;
+      color: #000000;
+      padding: 5px 15px;
+      border-radius: 35px;
+      margin-bottom: 35px;
+      margin-top: 30px;
+   }
+}
